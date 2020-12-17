@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <title>My Website</title>
 </head>
 <body>
@@ -18,9 +19,9 @@
                     <div class="hamburger"><div class="bar"></div></div>
                     <ul>
                         <li><a href="#hero" data-after="Home">Home</a></li>
+                        <li><a href="#about" data-after="About">About</a></li>
                         <li><a href="#services" data-after="Services">Services</a></li>
                         <li><a href="#projects" data-after="Projects">Projects</a></li>
-                        <li><a href="#about" data-after="About">About</a></li>
                         <li><a href="#contact" data-after="Contact">Contact</a></li>
                     </ul>
                 </div>
@@ -36,52 +37,52 @@
                 <h1>Hello, <span></span></h1>
                 <h1>My Name is <span></span></h1>
                 <h1>Michael <span></span></h1>
-                <a href="#" type="button" class="cta">Portfolio</a>
+                <a href="#projects" type="button" class="cta">Portfolio</a>
             </div>
         </div>
     </section>
     <!-- End Hero Section -->
+    
+    <!-- About Section -->
+    <section id="about">
+        <div class="about container">
+            <div class="col-left">
+                <div class="about-img">
+                    <img src="./img/new_pic2.jpg" alt="img">
+                </div>
+            </div>
+            <div class="col-right">
+                <h1 class="section-title">About <span>me</span></h1>
+                <h2>Full-Stack Developer</h2>
+                <p>
+                    My name is Michael Abiona, I'm a full stack developer 
+                    with special passion for making life easier for people through excellent software delivery.
+                    My experience has given me the privilege of seeing problems through the lens of solution.
+                </p>
+                <a href="./michael-abiona-cv.pdf" class="cta">Download Resume</a>
+            </div>
+        </div>
+    </section>
+    <!-- End About Section -->
 
     <!-- Service Section -->
     <section id="services">
         <div class="services container">
             <div class="service-top">
                 <h1 class="section-title">Serv<span>i</span>ces</h1>
-                <p>Here are the list of services I have to offer</p>
             </div>
             <div class="service-bottom">
-                <div class="service-item">
-                    <div class="icon">
-                        <img src="https://img.icons8.com/bubbles/50/000000/services.png"/>
-                    </div>
-                    <h2>Web Design</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                        Recusandae cum impedit tenetur, pariatur porro expedita iusto, 
-                        distinctio deserunt dolores corporis, quidem hic nisi ut animi 
-                        voluptatum. Quos quod deserunt ea?
-                    </p>
+                <div class="service-left">
+                    <h6 class="section-title">Web <span>Development </span></h6>
                 </div>
-                <div class="service-item">
-                    <div class="icon">
-                        <img src="https://img.icons8.com/bubbles/50/000000/services.png"/>
-                    </div>
-                    <h2>Web Design</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                        Recusandae cum impedit tenetur, pariatur porro expedita iusto, 
-                        distinctio deserunt dolores corporis, quidem hic nisi ut animi 
-                        voluptatum. Quos quod deserunt ea?
-                    </p>
-                </div>
-                <div class="service-item">
-                    <div class="icon">
-                        <img src="https://img.icons8.com/bubbles/50/000000/services.png"/>
-                    </div>
-                    <h2>Web Design</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                        Recusandae cum impedit tenetur, pariatur porro expedita iusto, 
-                        distinctio deserunt dolores corporis, quidem hic nisi ut animi 
-                        voluptatum. Quos quod deserunt ea?
-                    </p>
+                <div class="service-right">
+                    <p>I can develop a fully responsive website for you or a client. The website will be high quality and sleek.</p>
+                    <br/>
+                    <p>Types of website I design Include:</p>
+                    <p class="types"><i class="far fa-hand-point-right"></i> eCommerce website</p>
+                    <p class="types"><i class="far fa-hand-point-right"></i> School/Education website</p>
+                    <p class="types"><i class="far fa-hand-point-right"></i> News Website</p>
+                    <p class="types"><i class="far fa-hand-point-right"></i> Blogs and lots more.</p>
                 </div>
             </div>
         </div>
@@ -98,99 +99,100 @@
                 <div class="project-item">
                     <div class="project-info">
                         <h1>Project 1</h1>
-                        <h2>Coding is Love</h2>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, 
-                            mollitia laborum est consequatur sit inventore sunt explicabo 
-                            aspernatur, aut ullam expedita qui, perspiciatis illo ipsa 
-                            porro fugiat. Fugiat, deleniti et?
+                        <h2>e-Commerce Website</h2>
+                        <p>
+                            A full featured eCommerce website built with the MERN stack.
                         </p>
+                        <h2>Functionalities:</h2>
+                        <p><i class="far fa-hand-point-right"></i> Full featured shopping cart, Product reviews and ratings</p>
+                        <p><i class="far fa-hand-point-right"></i> Top products carousel and pagination</p>
+                        <p><i class="far fa-hand-point-right"></i> Admin product/user management</p>
+                        <p><i class="far fa-hand-point-right"></i> PayPal/Credit card integration and more</p>
+                        <br/>
+                        <h2>Tech Stacks:</h2>
+                        <p>React, Node, Express, MongoDB, Redux, react-bootstrap</p>
+                        <br />
+                        <div>
+                            <a href="https://github.com/abionamike/proshop-mern" target="_blank"><i class="fab fa-github fa-2x"></i></a><a href="https://proshopapp321.herokuapp.com" target="_blank"><i class="fas fa-external-link-alt fa-2x"></i></a>
+                        </div>
                     </div>
                     <div class="project-img">
-                        <img src="./img/img-1.png" alt="img">
+                        <img src="./img/proshop.png" alt="img">
                     </div>
                 </div>
                 <div class="project-item">
                     <div class="project-info">
                         <h1>Project 2</h1>
-                        <h2>Coding is Love</h2>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, 
-                            mollitia laborum est consequatur sit inventore sunt explicabo 
-                            aspernatur, aut ullam expedita qui, perspiciatis illo ipsa 
-                            porro fugiat. Fugiat, deleniti et?
+                        <h2>WhatsApp Clone</h2>
+                        <p>
+                            A whatsapp-web-like chat app built from scratch with React and Firebase
                         </p>
+                        <h2>Functionalities:</h2>
+                        <p><i class="far fa-hand-point-right"></i> Sign in with Google</p>
+                        <p><i class="far fa-hand-point-right"></i> and other WhatsApp functionalities</p>
+                        <br />
+                        <h2>Tech Stacks:</h2>
+                        <p>React, Firebase, Material-ui</p>
+                        <br />
+                        <div>
+                            <a href="https://github.com/abionamike/whatsapp-clone" target="_blank"><i class="fab fa-github fa-2x"></i></a><a href="https://whatsapp-clone-e27b5.web.app" target="_blank"><i class="fas fa-external-link-alt fa-2x"></i></a>
+                        </div>
                     </div>
                     <div class="project-img">
-                        <img src="./img/img-1.png" alt="img">
+                        <img src="./img/whatsapp.png" alt="img">
                     </div>
                 </div>
                 <div class="project-item">
                     <div class="project-info">
                         <h1>Project 3</h1>
-                        <h2>Coding is Love</h2>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, 
-                            mollitia laborum est consequatur sit inventore sunt explicabo 
-                            aspernatur, aut ullam expedita qui, perspiciatis illo ipsa 
-                            porro fugiat. Fugiat, deleniti et?
+                        <h2>Education/School Website</h2>
+                        <p>
+                            An Education/School website built with the Django framewotk, created for students to get information about the school and other related news
                         </p>
+                        <h2>Functionalities:</h2>
+                        <p><i class="far fa-hand-point-right"></i> Authentication and Authorization</p>
+                        <p><i class="far fa-hand-point-right"></i> Password reset with gmail</p>
+                        <p><i class="far fa-hand-point-right"></i> News section with users comments and more</p>
+                        <br />
+                        <h2>Tech Stacks:</h2>
+                        <p>HTML, CSS, JavaScript, Bootstrap, Django</p>
+                        <br />
+                        <div>
+                            <a href="https://github.com/abionamike/pivet-academy" target="_blank"><i class="fab fa-github fa-2x"></i></a><a href="https://pivetacademy.pythonanywhere.com/" target="_blank"><i class="fas fa-external-link-alt fa-2x"></i></a>
+                        </div>
                     </div>
                     <div class="project-img">
-                        <img src="./img/img-1.png" alt="img">
+                        <img src="./img/pivet.png" alt="img">
                     </div>
                 </div>
                 <div class="project-item">
                     <div class="project-info">
                         <h1>Project 4</h1>
-                        <h2>Coding is Love</h2>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, 
-                            mollitia laborum est consequatur sit inventore sunt explicabo 
-                            aspernatur, aut ullam expedita qui, perspiciatis illo ipsa 
-                            porro fugiat. Fugiat, deleniti et?
+                        <h2>Blog App</h2>
+                        <p>
+                            A simple blog app built with the MERN stack
                         </p>
+                        <h2>Functionalities:</h2>
+                        <p><i class="far fa-hand-point-right"></i> Create</p>
+                        <p><i class="far fa-hand-point-right"></i> Read</p>
+                        <p><i class="far fa-hand-point-right"></i> Update</p>
+                        <p><i class="far fa-hand-point-right"></i> Delete</p>
+                        <br />
+                        <h2>Tech Stacks:</h2>
+                        <p>React, Node, Express, MongoDB, react-bootstrap, Redux</p>
+                        <br />
+                        <div>
+                            <a href="https://github.com/abionamike/my-blog" target="_blank"><i class="fab fa-github fa-2x"></i></a><a href="https://myblog-app123.herokuapp.com/" target="_blank"><i class="fas fa-external-link-alt fa-2x"></i></a>
+                        </div>
                     </div>
                     <div class="project-img">
-                        <img src="./img/img-1.png" alt="img">
-                    </div>
-                </div>
-                <div class="project-item">
-                    <div class="project-info">
-                        <h1>Project 5</h1>
-                        <h2>Coding is Love</h2>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, 
-                            mollitia laborum est consequatur sit inventore sunt explicabo 
-                            aspernatur, aut ullam expedita qui, perspiciatis illo ipsa 
-                            porro fugiat. Fugiat, deleniti et?
-                        </p>
-                    </div>
-                    <div class="project-img">
-                        <img src="./img/img-1.png" alt="img">
+                        <img src="./img/blog.png" alt="img">
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- End Projects Section -->
-
-    <!-- About Section -->
-    <section id="about">
-        <div class="about container">
-            <div class="col-left">
-                <div class="about-img">
-                    <img src="./img/img-2.png" alt="img">
-                </div>
-            </div>
-            <div class="col-right">
-                <h1 class="section-title">About <span>me</span></h1>
-                <h2>Front End Development</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Deserunt repudiandae, rem molestias iusto, laborum est 
-                    sapiente maiores facere quaerat, debitis voluptatibus veniam magnam? 
-                    Eaque tempora odio repellendus non, possimus illo.
-                </p>
-                <a href="#" class="cta">Download Resume</a>
-            </div>
-        </div>
-    </section>
-    <!-- End About Section -->
 
     <!-- Contact Section -->
     <section id="contact">
@@ -201,23 +203,16 @@
                     <div class="icon"><img src="https://img.icons8.com/bubbles/50/000000/phone.png"/></div>
                     <div class="contact-info">
                         <h1>Phone</h1>
-                        <h2>+234 7067087123</h2>
-                        <h2>+234 7067087123</h2>
+                        <h2>+234(0)7067087123</h2>
                     </div>
                 </div>
                 <div class="contact-item">
                     <div class="icon"><img src="https://img.icons8.com/bubbles/50/000000/email.png"/></div>
                     <div class="contact-info">
                         <h1>Email</h1>
-                        <h2>amabiona21@gmail.com</h2>
-                        <h2>amabiona21@gmail.com</h2>
-                    </div>
-                </div>
-                <div class="contact-item">
-                    <div class="icon"><img src="https://img.icons8.com/bubbles/50/000000/map-marker.png"/></div>
-                    <div class="contact-info">
-                        <h1>Address</h1>
-                        <h2>9, Amos Adeniji Street, Lagos, Nigeria</h2>
+                        <h2>developedbymike@gmail.com</h2>
+                        <br />
+                        <span><strong><a href="mailto:developedbymike@gmail.com">Send me a mail</a></strong></span>
                     </div>
                 </div>
             </div>
@@ -232,19 +227,16 @@
             <h2>Your Complete Web Solution</h2>
             <div class="social-icon">
                 <div class="social-item">
-                    <a href="#"><img src="https://img.icons8.com/bubbles/50/000000/facebook-new.png"/></a>
+                    <a href="https://wwww.facebook.com/abiola.abiona.7" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/facebook-new.png"/></a>
                 </div>
                 <div class="social-item">
-                    <a href="#"><img src="https://img.icons8.com/bubbles/50/000000/instagram-new.png"/></a>
+                    <a href="https://api.whatsapp.com/send?phone=2349057641278&" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/whatsapp.png"/></a>
                 </div>
                 <div class="social-item">
-                    <a href="#"><img src="https://img.icons8.com/bubbles/50/000000/twitter.png"/></a>
-                </div>
-                <div class="social-item">
-                    <a href="#"><img src="https://img.icons8.com/bubbles/50/000000/behance.png"/></a>
+                    <a href="https://twitter.com/developedbyMike?s=01" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/twitter.png"/></a>
                 </div>
             </div>
-            <p>Copyright &copy; 2020 Michael. All rights reserved</p>
+            <p>Copyright &copy; 2020 developedbymike. All rights reserved</p>
         </div>
     </section>
     <!-- End Footer -->
