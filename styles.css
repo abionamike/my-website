@@ -555,11 +555,15 @@ p {
 #footer .social-item:hover img {
 	filter: grayscale(0);
 }
-#footer p {
+#footer .copyright {
 	color: white;
 	font-size: 1.3rem;
 	text-align: center;
 	margin: auto;
+}
+
+#footer .copyright .year {
+	display: inline-block;
 }
 /* End Footer */
 
