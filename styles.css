@@ -28,10 +28,10 @@ img {
 }
 p {
 	color: black;
-	font-size: 1.4rem;
+	font-size: 1.5rem;
 	margin-top: 5px;
 	line-height: 2.5rem;
-	font-weight: 300;
+	font-weight: 400;
 	letter-spacing: .05rem;
 }
 .section-title {
@@ -65,7 +65,7 @@ p {
 	background-color: crimson;
 }
 .brand h1 {
-	font-size: 2.5rem;
+	font-size: 3rem;
 	font-weight: 700;
 	letter-spacing: 1px;
 	color: white;
@@ -117,7 +117,7 @@ p {
 	left: 0;
 }
 #header .nav-list ul a {
-	font-size: 2.5rem;
+	font-size: 3rem;
 	font-weight: 500;
 	letter-spacing: .2rem;
 	text-decoration: none;
@@ -142,7 +142,7 @@ p {
 	transform: translate(-50%, -50%) scale(1);
 	letter-spacing: initial;
 }
-#header .nav-list ul li:hover a {
+#header .nav-list ul li a:hover {
 	color: crimson;
 }
 #header .hamburger {
@@ -202,7 +202,7 @@ p {
 
 /* Hero Section */
 #hero {
-	background-image: url(./img/hero-program-blurr2.jpg);
+	background-image: url(./img/hero-img.jpg);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -216,7 +216,7 @@ p {
 	height: 100%;
 	width: 100%;
 	background-color: black;
-	opacity: .55;
+	opacity: .8;
 	z-index: -1;
 }
 #hero .hero {
@@ -228,7 +228,7 @@ p {
 #hero h1 {
 	display: block;
 	width: fit-content;
-    font-size: 3.4rem;
+  font-size: 4rem;
 	position: relative;
 	color: transparent;
 	animation: text_reveal .5s ease forwards;
@@ -281,15 +281,10 @@ p {
 #about .col-right {
 	width: 100%;
 }
-#about .col-right h2 {
-	font-size: 1.8rem;
-	font-weight: 500;
-	letter-spacing: .2rem;
-    margin-bottom: 10px;
-    margin-top: 25px;
-}
 #about .col-right p {
+	padding-top: 25px;
 	margin-bottom: 20px;
+	font-size: 1.8rem;
 }
 #about .col-right .cta {
 	color: black;
@@ -467,6 +462,36 @@ p {
 }
 /* End Projects section */
 
+/* friends section */
+#friends .friends {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	/* margin-top: 65px; */
+	padding: 100px 0;
+}
+
+#friends .friends .section-title {
+	margin-bottom: 15px;
+}
+
+.friends-imgs {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	margin: 45px;
+}
+
+.friends .friends-imgs img {
+	width: 300px;
+	height: 300px;
+	margin: 8px;
+	border-radius: 10px;
+}
+
 /* contact Section */
 #contact .contact {
 	flex-direction: column;
@@ -607,17 +632,17 @@ p {
 		padding: 10px 30px;
 	}
 	h1.section-title {
-      font-size: 4.5rem;
-    }
+		font-size: 4.5rem;
+	}
     
-    .brand h1 {
-      font-size: 3.5rem;
-    }
+	.brand h1 {
+		font-size: 3.5rem;
+	}
 
 	/* Hero */
 	#hero h1 {
-      font-size: 5rem;
-      font-weight: 500;
+		font-size: 6rem;
+		font-weight: 600;
 	}
 	/* End Hero */
 
@@ -763,6 +788,16 @@ p {
 		display: none;
 	}
 	/* End header */
+
+	#about .col-right h2 {
+		font-size: 2.5rem;
+		font-weight: 400;
+	}
+
+	#about .col-right p {
+		font-size: 1.8rem;
+		font-weight: 400;
+	}
 
 	#services .service-bottom .service-item {
 		flex-basis: 22%;
